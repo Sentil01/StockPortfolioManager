@@ -25,7 +25,8 @@ gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'iex-ruby-client'
+gem "google_search_results"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
