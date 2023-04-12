@@ -4,13 +4,14 @@ class StocksController < ApplicationController
   # GET /stocks or /stocks.json
   def index
     @stocks = Stock.all
-    @result=Stock.search_stock("tata")
+    # @result=Stock.search_stock("tata")
 
   end
 
   # GET /stocks/1 or /stocks/1.json
   def search
-
+    # @stocks = Stock.all
+    @result=Stock.search_stock("tata")
   end
   def show
 
